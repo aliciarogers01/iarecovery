@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Intuitive Auto Recover LLC provides professional vehicle recovery, repossession support, and secure case handling for lenders, dealerships, and financial institutions."
+    />
+    <title>Intuitive Auto Recover LLC | Professional Vehicle Recovery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a href="#top" class="brand" aria-label="Intuitive Auto Recover LLC home">
+          <span class="brand-mark">IAR</span>
+          <span class="brand-text">Intuitive Auto Recover LLC</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#request">Submit a Case</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Professional vehicle recovery services</p>
+            <h1>Fast, discreet, and organized recovery support.</h1>
+            <p class="hero-lead">
+              Intuitive Auto Recover LLC supports lenders, dealerships, and financial institutions with professional repossession coordination, case handling, and recovery documentation.
+            </p>
+            <div class="hero-actions">
+              <a href="#request" class="btn btn-primary">Submit a Recovery Request</a>
+              <a href="#contact" class="btn btn-secondary">Contact Office</a>
+            </div>
+            <div class="trust-row" aria-label="Key service qualities">
+              <span>24/7 Request Access</span>
+              <span>Discreet Operations</span>
+              <span>Secure Case Handling</span>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Important security notice">
+            <div class="card-icon">▣</div>
+            <h2>Security-first recovery operations</h2>
+            <p>
+              For security reasons, vehicle storage and recovery locations are not publicly disclosed. Authorized parties may contact the office for case-specific assistance.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section stat-strip" aria-label="Company highlights">
+        <div class="container stats">
+          <div>
+            <strong>Professional</strong>
+            <span>Case intake and documentation</span>
+          </div>
+          <div>
+            <strong>Responsive</strong>
+            <span>Clear communication from request to resolution</span>
+          </div>
+          <div>
+            <strong>Secure</strong>
+            <span>Operational details kept confidential</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>Vehicle recovery solutions built for business clients.</h2>
+            <p>
+              We focus on clear communication, careful handling, and organized recovery support for professional clients.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>Vehicle Repossession</h3>
+              <p>Voluntary and involuntary recovery coordination handled with professionalism, discretion, and attention to applicable requirements.</p>
+            </article>
+            <article class="service-card">
+              <h3>Recovery Intake</h3>
+              <p>Structured case submission for debtor details, vehicle information, VIN, last known location, and special instructions.</p>
+            </article>
+            <article class="service-card">
+              <h3>Skip Support</h3>
+              <p>Information review and location support to help move recovery assignments forward efficiently.</p>
+            </article>
+            <article class="service-card">
+              <h3>Documentation</h3>
+              <p>Organized updates, condition notes, and recovery-related details for authorized clients and stakeholders.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark-panel" id="process">
+        <div class="container process-grid">
+          <div class="section-heading left">
+            <p class="eyebrow">Process</p>
+            <h2>A simple workflow for recovery requests.</h2>
+            <p>
+              The website is designed to collect the right information upfront so the team can evaluate and respond to each assignment quickly.
+            </p>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <span>01</span>
+              <div>
+                <h3>Submit the request</h3>
+                <p>Provide client, debtor, vehicle, and location details through the secure intake form.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span>02</span>
+              <div>
+                <h3>Case review</h3>
+                <p>The assignment is reviewed for completeness, priority, location, and next steps.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span>03</span>
+              <div>
+                <h3>Recovery coordination</h3>
+                <p>Authorized parties receive updates while sensitive operational details remain confidential.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="request">
+        <div class="container request-grid">
+          <div>
+            <p class="eyebrow">Submit a case</p>
+            <h2>Recovery request intake</h2>
+            <p class="muted">
+              Use this form for business recovery inquiries. Do not submit sensitive account credentials through this form. A representative will review the request and follow up.
+            </p>
+            <div class="notice-box">
+              <strong>Security notice:</strong> Storage locations and active recovery locations are not disclosed through the website.
+            </div>
+          </div>
+
+          <form class="intake-form" id="recovery-form">
+            <div class="form-row">
+              <label>
+                Company Name
+                <input type="text" name="companyName" required />
+              </label>
+              <label>
+                Contact Name
+                <input type="text" name="contactName" required />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Email
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="phone" required />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Debtor Name
+                <input type="text" name="debtorName" />
+              </label>
+              <label>
+                VIN
+                <input type="text" name="vin" />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Vehicle Year / Make / Model
+                <input type="text" name="vehicle" placeholder="Example: 2021 Ford F-150" />
+              </label>
+              <label>
+                Last Known City / State
+                <input type="text" name="lastKnownLocation" />
+              </label>
+            </div>
+
+            <label>
+              Notes / Special Instructions
+              <textarea name="notes" rows="5" placeholder="Provide any relevant recovery details."></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary full-width">Submit Recovery Request</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Office information</h2>
+            <p>
+              Intuitive Auto Recover LLC provides office contact information for authorized business inquiries. Vehicle storage and recovery locations are not listed publicly.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Intuitive Auto Recover LLC</h3>
+            <p><strong>Office:</strong> Add office address here</p>
+            <p><strong>Email:</strong> <a href="mailto:info@iarecover.net">info@iarecover.net</a></p>
+            <p><strong>Phone:</strong> Add business phone here</p>
+            <p class="small-note">For security reasons, vehicle storage and recovery locations are not publicly disclosed.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Intuitive Auto Recover LLC. All rights reserved.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
